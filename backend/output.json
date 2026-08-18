@@ -1,0 +1,4095 @@
+{
+  "job_id": "c55234c9-c38a-4fb0-a4fd-2bf00b6bde14",
+  "status": "complete",
+  "total_frames": 289,
+  "decoded_frames": 288,
+  "unique_can_ids": 4,
+  "anomalies": [
+    {
+      "timestamp": 0.0,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.0,
+      "rule_evidence": [
+        "Rule [Data Corruption]: All 0x00 payload"
+      ]
+    },
+    {
+      "timestamp": 0.1,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.0,
+      "rule_evidence": [
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 0.1,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.0,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.1,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.0,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.1,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.0,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.2,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.0,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 0.2,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.0,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.2,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.0,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.2,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.0,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.3,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.0,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 0.3,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.0,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.3,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.0,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.3,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36755526065826416,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.4,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.38818374276161194,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 0.4,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4040818512439728,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.4,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.41413065791130066,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.4,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36671561002731323,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.5,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.38635656237602234,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 0.5,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4032365679740906,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.5,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4128364026546478,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.5,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36634472012519836,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.6,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3859979510307312,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 0.6,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4036843776702881,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.6,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4117904603481293,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.6,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3661336302757263,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.7,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.38561347126960754,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 0.7,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4072275757789612,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.7,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.41322338581085205,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.7,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36748918890953064,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.8,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3860499858856201,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 0.8,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.40937677025794983,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.8,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.41277897357940674,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.8,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36768943071365356,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.9,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3734321594238281,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 0.9,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4024198055267334,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.9,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4034024178981781,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 0.9,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36305728554725647,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 1.0,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36698323488235474,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 1.0,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.399574339389801,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 1.0,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.39808303117752075,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 1.0,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3607131540775299,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 2.01,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3985632359981537,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x0C9 timed out (elapsed 1.0100s > 0.3000s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0100s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 1.0100s > 0.3000s)"
+      ]
+    },
+    {
+      "timestamp": 2.011,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4346693754196167,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 2.012,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4705536961555481,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 2.013,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.49268838763237,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 2.014,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5127500295639038,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.51)"
+      ]
+    },
+    {
+      "timestamp": 2.015,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5240532159805298,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.52)"
+      ]
+    },
+    {
+      "timestamp": 2.016,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5400964021682739,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.54)"
+      ]
+    },
+    {
+      "timestamp": 2.017,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5486505627632141,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.55)"
+      ]
+    },
+    {
+      "timestamp": 2.018,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5572704076766968,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.56)"
+      ]
+    },
+    {
+      "timestamp": 2.019,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5615589618682861,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.56)"
+      ]
+    },
+    {
+      "timestamp": 2.02,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5694447755813599,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0200s > 0.0300s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.57)"
+      ]
+    },
+    {
+      "timestamp": 2.021,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5732160210609436,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.57)"
+      ]
+    },
+    {
+      "timestamp": 2.022,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5766388177871704,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.023,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5780335068702698,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.024,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5818357467651367,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.025,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5834851861000061,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.026,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.027,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.028,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.029,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.03,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.031,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0310s > 0.0300s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.032,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.033,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.034,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.035,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.036,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.037,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.038,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.039,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.04,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.041,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.042,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0420s > 0.0300s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.043,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.044,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.045,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.046,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.047,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.048,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.049,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.05,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.051,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.052,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0520s > 0.0300s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.053,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.054,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.055,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.056,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.057,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.058,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.059,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.06,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.061,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.062,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.063,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0630s > 0.0300s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.064,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.065,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.066,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.067,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.068,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.069,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.07,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.071,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.072,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.073,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.074,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0740s > 0.0300s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.075,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.076,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.077,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.078,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.079,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.08,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.081,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.082,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.083,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.084,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0840s > 0.0300s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.085,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.086,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.087,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.088,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.089,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.09,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.091,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.092,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.093,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.094,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.095,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0950s > 0.0300s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.096,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.097,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.098,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.099,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.1,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5835855007171631,
+      "rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 2.0,
+      "can_id": 201,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.573345422744751,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.57)"
+      ]
+    },
+    {
+      "timestamp": 2.0,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5467276573181152,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.55)"
+      ]
+    },
+    {
+      "timestamp": 2.1,
+      "can_id": 201,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5454021692276001,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.55)"
+      ]
+    },
+    {
+      "timestamp": 2.1,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.511670708656311,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.51)"
+      ]
+    },
+    {
+      "timestamp": 3.0,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5231392979621887,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.9000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.9000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 2.0000s > 0.3000s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.52)"
+      ]
+    },
+    {
+      "timestamp": 3.0,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5285266637802124,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.53)"
+      ]
+    },
+    {
+      "timestamp": 3.0,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5009946227073669,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.50)"
+      ]
+    },
+    {
+      "timestamp": 3.0,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.44296953082084656,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.1,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4431791305541992,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 3.1,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.46074748039245605,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.1,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4383818209171295,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.1,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.39214056730270386,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.2,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3868500292301178,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 3.2,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.42002296447753906,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.2,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.40632912516593933,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.2,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36826789379119873,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.3,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36837705969810486,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 3.3,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4053853452205658,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.3,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3946579694747925,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.3,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3590303957462311,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.4,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36076951026916504,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 3.4,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.39963069558143616,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.4,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.39093178510665894,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.4,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.35793647170066833,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.5,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3594391345977783,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 3.5,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.40005752444267273,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.5,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.38979077339172363,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.5,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3578507602214813,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.6,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3589189052581787,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 3.6,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3957316279411316,
+      "rule_evidence": [
+        "Rule [Out-of-Range]: Vehicle_Speed is out of bounds (distance: 20.0)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.6,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.38276371359825134,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.6,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3550659716129303,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.7,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3569076657295227,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 3.7,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.39417150616645813,
+      "rule_evidence": [
+        "Rule [Out-of-Range]: Vehicle_Speed is out of bounds (distance: 40.0)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.7,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3828926980495453,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.7,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3562593162059784,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.8,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.35785433650016785,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 3.8,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3970094621181488,
+      "rule_evidence": [
+        "Rule [Out-of-Range]: Vehicle_Speed is out of bounds (distance: 60.0)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.8,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3921316862106323,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.8,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3625914454460144,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 3.9,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3535207211971283,
+      "rule_evidence": [
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 3.9,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4132557809352875,
+      "rule_evidence": [
+        "Rule [Out-of-Range]: Vehicle_Speed is out of bounds (distance: 80.0)"
+      ]
+    },
+    {
+      "timestamp": 4.023,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.43972209095954895,
+      "rule_evidence": [
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1230s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 4.023,
+      "can_id": 201,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.46225473284721375,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 4.023,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5058262348175049,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Gear is PARK",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.51)"
+      ]
+    },
+    {
+      "timestamp": 4.023105,
+      "can_id": 201,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.6738901138305664,
+      "rule_evidence": [
+        "Rule [Out-of-Range]: Engine_RPM is out of bounds (distance: 8383.75)",
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0001s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Gear is PARK",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.67)"
+      ]
+    },
+    {
+      "timestamp": 4.1,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.6840651631355286,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Gear is PARK",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.0770s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.0770s > 0.0300s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.68)"
+      ]
+    },
+    {
+      "timestamp": 4.1,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.6638889908790588,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Gear is PARK",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.66)"
+      ]
+    },
+    {
+      "timestamp": 4.1,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.6233266592025757,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.62)"
+      ]
+    },
+    {
+      "timestamp": 4.1,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5367551445960999,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.54)"
+      ]
+    },
+    {
+      "timestamp": 4.2,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5114685893058777,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.51)"
+      ]
+    },
+    {
+      "timestamp": 4.2,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5072864294052124,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.51)"
+      ]
+    },
+    {
+      "timestamp": 4.2,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4926030933856964,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 4.2,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4296036660671234,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 4.3,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.43635523319244385,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 4.3,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.44523146748542786,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 4.3,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4460376501083374,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 4.3,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.39169055223464966,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 4.4,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.40705329179763794,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 4.4,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4215557873249054,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 4.4,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4226659834384918,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 4.4,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3687670826911926,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 4.5,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.38686373829841614,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 4.5,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4036847651004791,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 4.5,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4118073582649231,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 4.5,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3661336302757263,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 5.0,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.37448447942733765,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.5000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.5000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 0.5000s > 0.3000s)"
+      ]
+    },
+    {
+      "timestamp": 5.0,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.40470099449157715,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 5.0,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4078318774700165,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 5.0,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36593329906463623,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 5.5,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3747905194759369,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.5000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.5000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 0.5000s > 0.3000s)"
+      ]
+    },
+    {
+      "timestamp": 5.5,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4052712023258209,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 5.5,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4054105579853058,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 5.5,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36582255363464355,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 6.5,
+      "can_id": 201,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3933922052383423,
+      "rule_evidence": [
+        "Rule [Out-of-Range]: Engine_RPM is out of bounds (distance: 8383.75)",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 1.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 1.0000s > 0.3000s)",
+        "Rule [Data Corruption]: All 0xFF payload"
+      ]
+    },
+    {
+      "timestamp": 6.6,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4081692695617676,
+      "rule_evidence": [
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.1000s > 0.0300s)",
+        "Rule [Data Corruption]: All 0x00 payload"
+      ]
+    },
+    {
+      "timestamp": 6.7,
+      "can_id": 201,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.40402647852897644,
+      "rule_evidence": [
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.2000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 1.2000s > 0.3000s)",
+        "Rule [Data Corruption]: DLC mismatch"
+      ]
+    },
+    {
+      "timestamp": 6.75,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4903915822505951,
+      "rule_evidence": [
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.2500s > 0.0300s)",
+        "Rule [Data Corruption]: AA/55 test pattern"
+      ]
+    },
+    {
+      "timestamp": 7.0,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4727442264556885,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.2500s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.5000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 1.5000s > 0.3000s)"
+      ]
+    },
+    {
+      "timestamp": 7.0,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.443888396024704,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 7.0,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.45632147789001465,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 7.0,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.38689351081848145,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 7.1,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.40677711367607117,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 7.1,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4133354425430298,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 7.1,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.41670772433280945,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 7.1,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36507275700569153,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 7.5,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.37615275382995605,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.4000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.4000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 0.4000s > 0.3000s)"
+      ]
+    },
+    {
+      "timestamp": 7.5,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.40079307556152344,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 7.5,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.40558409690856934,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 7.5,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36205413937568665,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 8.0,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.37465807795524597,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.5000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.5000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 0.5000s > 0.3000s)"
+      ]
+    },
+    {
+      "timestamp": 8.0,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4039120078086853,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 8.0,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4021763503551483,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 8.1,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.43386176228523254,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 8.1,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4510744512081146,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 8.5,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.45883235335350037,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.4000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.5000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 1.0000s > 0.3000s)"
+      ]
+    },
+    {
+      "timestamp": 8.5,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4758146107196808,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 9.0,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.48167821764945984,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.5000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 1.5000s > 0.3000s)"
+      ]
+    },
+    {
+      "timestamp": 9.0,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.49271100759506226,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 10.0,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.49780330061912537,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 1.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 2.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 2.5000s > 0.3000s)"
+      ]
+    },
+    {
+      "timestamp": 10.0,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.510693371295929,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.51)"
+      ]
+    },
+    {
+      "timestamp": 12.0,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5235117673873901,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 2.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 4.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 4.5000s > 0.3000s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.52)"
+      ]
+    },
+    {
+      "timestamp": 12.0,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5359282493591309,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.54)"
+      ]
+    },
+    {
+      "timestamp": 15.0,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5508058667182922,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 3.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 7.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 7.5000s > 0.3000s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.55)"
+      ]
+    },
+    {
+      "timestamp": 15.0,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5656161904335022,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.57)"
+      ]
+    },
+    {
+      "timestamp": 18.0,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5737602114677429,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 3.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 10.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 10.5000s > 0.3000s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.57)"
+      ]
+    },
+    {
+      "timestamp": 18.0,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5838473439216614,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 18.0,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.6018871068954468,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.60)"
+      ]
+    },
+    {
+      "timestamp": 20.0,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.6184751391410828,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 2.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 2.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 12.5000s > 0.3000s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.62)"
+      ]
+    },
+    {
+      "timestamp": 20.0,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.6340696215629578,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.63)"
+      ]
+    },
+    {
+      "timestamp": 20.0,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5692263841629028,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.57)"
+      ]
+    },
+    {
+      "timestamp": 20.0,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.5850070714950562,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.59)"
+      ]
+    },
+    {
+      "timestamp": 20.1,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.584351658821106,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)"
+      ]
+    },
+    {
+      "timestamp": 20.1,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.6071626543998718,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.61)"
+      ]
+    },
+    {
+      "timestamp": 20.1,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "is_rule_violation": true,
+      "dl_score": 0.512540340423584,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.51)"
+      ]
+    },
+    {
+      "timestamp": 20.1,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4654201567173004,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.2,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4245757460594177,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 20.2,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.45506685972213745,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.2,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.430067777633667,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.2,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3867093026638031,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.3,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3814392685890198,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 20.3,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4131418466567993,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.3,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4045059084892273,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.3,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36395400762557983,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.4,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36671367287635803,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 20.4,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.4000318944454193,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.4,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3962140679359436,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.4,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.35918164253234863,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.5,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36210623383522034,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 20.5,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3970312476158142,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.5,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.39463841915130615,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.5,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.35918164253234863,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.6,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36210623383522034,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 20.6,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3970312476158142,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.6,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.39463841915130615,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.6,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.35918164253234863,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.7,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36210623383522034,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 20.7,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3970312476158142,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.7,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.39463841915130615,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.7,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.35918164253234863,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.8,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36210623383522034,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 20.8,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3970312476158142,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.8,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.39463841915130615,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.8,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.35918164253234863,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.9,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36210623383522034,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 20.9,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3970312476158142,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.9,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.39463841915130615,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 20.9,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.35918164253234863,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 21.0,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.36210623383522034,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "timestamp": 21.0,
+      "can_id": 416,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.3970312476158142,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 21.0,
+      "can_id": 432,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.39463841915130615,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    },
+    {
+      "timestamp": 21.0,
+      "can_id": 512,
+      "anomaly_type": "Hybrid",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "is_rule_violation": true,
+      "dl_score": 0.35918164253234863,
+      "rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF"
+      ]
+    }
+  ],
+  "incidents": [
+    {
+      "start_time": 0.0,
+      "end_time": 0.0,
+      "duration": 0.0,
+      "primary_anomaly_type": "Rule [Data Corruption]",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "affected_can_ids": [
+        416
+      ],
+      "occurrences": 1,
+      "peak_dl_score": 0.0,
+      "all_rule_evidence": [
+        "Rule [Data Corruption]: All 0x00 payload"
+      ]
+    },
+    {
+      "start_time": 0.1,
+      "end_time": 0.1,
+      "duration": 0.0,
+      "primary_anomaly_type": "Rule [Missing Timeout]",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "affected_can_ids": [
+        432
+      ],
+      "occurrences": 1,
+      "peak_dl_score": 0.0,
+      "all_rule_evidence": [
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)"
+      ]
+    },
+    {
+      "start_time": 0.1,
+      "end_time": 5.5,
+      "duration": 5.4,
+      "primary_anomaly_type": "Rule [Logical Contradiction]",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "affected_can_ids": [
+        416,
+        432,
+        512,
+        201
+      ],
+      "occurrences": 107,
+      "peak_dl_score": 0.6840651631355286,
+      "all_rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.57)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.55)",
+        "Rule [Missing Timeout]: Message 0x0C9 timed out (elapsed 1.0100s > 0.3000s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0100s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 1.0100s > 0.3000s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.51)",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.9000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.9000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 2.0000s > 0.3000s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.52)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.53)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.50)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Gear is PARK",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.0770s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.0770s > 0.0300s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.68)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.66)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.62)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.54)",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.5000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.5000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 0.5000s > 0.3000s)"
+      ]
+    },
+    {
+      "start_time": 2.011,
+      "end_time": 2.1,
+      "duration": 0.08899999999999997,
+      "primary_anomaly_type": "Rule [Timing Flood]",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "affected_can_ids": [
+        416,
+        432
+      ],
+      "occurrences": 90,
+      "peak_dl_score": 0.5835855007171631,
+      "all_rule_evidence": [
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0010s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.51)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.52)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.54)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.55)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.56)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0200s > 0.0300s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.57)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0310s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0420s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0520s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0630s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0740s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0840s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0950s > 0.0300s)"
+      ]
+    },
+    {
+      "start_time": 3.6,
+      "end_time": 4.023105,
+      "duration": 0.42310500000000006,
+      "primary_anomaly_type": "Rule [Out-of-Range]",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "affected_can_ids": [
+        416,
+        201
+      ],
+      "occurrences": 5,
+      "peak_dl_score": 0.6738901138305664,
+      "all_rule_evidence": [
+        "Rule [Out-of-Range]: Vehicle_Speed is out of bounds (distance: 20.0)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Out-of-Range]: Vehicle_Speed is out of bounds (distance: 40.0)",
+        "Rule [Out-of-Range]: Vehicle_Speed is out of bounds (distance: 60.0)",
+        "Rule [Out-of-Range]: Vehicle_Speed is out of bounds (distance: 80.0)",
+        "Rule [Out-of-Range]: Engine_RPM is out of bounds (distance: 8383.75)",
+        "Rule [Timing Flood]: Message arriving too fast (dt=0.0001s)",
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Gear is PARK",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.67)"
+      ]
+    },
+    {
+      "start_time": 3.9,
+      "end_time": 4.023,
+      "duration": 0.12299999999999978,
+      "primary_anomaly_type": "Rule [Missing Timeout]",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "affected_can_ids": [
+        432
+      ],
+      "occurrences": 2,
+      "peak_dl_score": 0.43972209095954895,
+      "all_rule_evidence": [
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1230s > 0.0300s)"
+      ]
+    },
+    {
+      "start_time": 6.5,
+      "end_time": 6.5,
+      "duration": 0.0,
+      "primary_anomaly_type": "Rule [Out-of-Range]",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "affected_can_ids": [
+        201
+      ],
+      "occurrences": 1,
+      "peak_dl_score": 0.3933922052383423,
+      "all_rule_evidence": [
+        "Rule [Out-of-Range]: Engine_RPM is out of bounds (distance: 8383.75)",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 1.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 1.0000s > 0.3000s)",
+        "Rule [Data Corruption]: All 0xFF payload"
+      ]
+    },
+    {
+      "start_time": 6.6,
+      "end_time": 6.75,
+      "duration": 0.15000000000000036,
+      "primary_anomaly_type": "Rule [Missing Timeout]",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "affected_can_ids": [
+        416,
+        201
+      ],
+      "occurrences": 3,
+      "peak_dl_score": 0.4903915822505951,
+      "all_rule_evidence": [
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.1000s > 0.0300s)",
+        "Rule [Data Corruption]: All 0x00 payload",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.2000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 1.2000s > 0.3000s)",
+        "Rule [Data Corruption]: DLC mismatch",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.2500s > 0.0300s)",
+        "Rule [Data Corruption]: AA/55 test pattern"
+      ]
+    },
+    {
+      "start_time": 7.0,
+      "end_time": 10.0,
+      "duration": 3.0,
+      "primary_anomaly_type": "Rule [Logical Contradiction]",
+      "severity": "Medium",
+      "description": "Deterministic rule violation.",
+      "affected_can_ids": [
+        512,
+        416,
+        432
+      ],
+      "occurrences": 23,
+      "peak_dl_score": 0.510693371295929,
+      "all_rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.2500s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.5000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 1.5000s > 0.3000s)",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.4000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.4000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 0.4000s > 0.3000s)",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.5000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.5000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 0.5000s > 0.3000s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 1.0000s > 0.3000s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 1.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 1.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 2.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 2.5000s > 0.3000s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.51)"
+      ]
+    },
+    {
+      "start_time": 12.0,
+      "end_time": 12.0,
+      "duration": 0.0,
+      "primary_anomaly_type": "Rule [Logical Contradiction]",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "affected_can_ids": [
+        512,
+        416
+      ],
+      "occurrences": 2,
+      "peak_dl_score": 0.5359282493591309,
+      "all_rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 2.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 4.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 4.5000s > 0.3000s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.52)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.54)"
+      ]
+    },
+    {
+      "start_time": 15.0,
+      "end_time": 15.0,
+      "duration": 0.0,
+      "primary_anomaly_type": "Rule [Logical Contradiction]",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "affected_can_ids": [
+        512,
+        416
+      ],
+      "occurrences": 2,
+      "peak_dl_score": 0.5656161904335022,
+      "all_rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 3.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 7.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 7.5000s > 0.3000s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.55)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.57)"
+      ]
+    },
+    {
+      "start_time": 18.0,
+      "end_time": 18.0,
+      "duration": 0.0,
+      "primary_anomaly_type": "Rule [Logical Contradiction]",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "affected_can_ids": [
+        512,
+        416,
+        432
+      ],
+      "occurrences": 3,
+      "peak_dl_score": 0.6018871068954468,
+      "all_rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 3.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 10.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 10.5000s > 0.3000s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.57)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.60)"
+      ]
+    },
+    {
+      "start_time": 20.0,
+      "end_time": 21.0,
+      "duration": 1.0,
+      "primary_anomaly_type": "Rule [Logical Contradiction]",
+      "severity": "Medium",
+      "description": "Critical anomaly with evidence from deterministic validation and DL.",
+      "affected_can_ids": [
+        512,
+        416,
+        432
+      ],
+      "occurrences": 44,
+      "peak_dl_score": 0.6340696215629578,
+      "all_rule_evidence": [
+        "Rule [Logical Contradiction]: Vehicle Speed > 0 while Engine is OFF",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 2.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 2.0000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x200 timed out (elapsed 12.5000s > 0.3000s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.62)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.63)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.57)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.59)",
+        "Rule [Missing Timeout]: Message 0x1A0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Rule [Missing Timeout]: Message 0x1B0 timed out (elapsed 0.1000s > 0.0300s)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.58)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.61)",
+        "Deep Learning: Anomalous temporal pattern detected (Score: 0.51)"
+      ]
+    }
+  ],
+  "error": null,
+  "execution_time": 0.10797500610351562
+}

@@ -1,0 +1,6 @@
+{
+  "name": "CAN Sentinel",
+  "description": "CAN Anomaly Detector with rule-based and deep learning inference.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}

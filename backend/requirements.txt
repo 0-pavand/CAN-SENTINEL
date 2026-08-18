@@ -1,0 +1,13 @@
+pydantic>=2.0.0
+pytest>=7.0.0
+cantools>=39.0.0
+numpy
+scikit-learn
+torch
+onnx
+onnxruntime
+onnxscript
+fastapi>=0.100.0
+uvicorn>=0.23.0
+python-multipart>=0.0.6
+
